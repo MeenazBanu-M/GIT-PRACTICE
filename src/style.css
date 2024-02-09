@@ -1,0 +1,112 @@
+.main {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.left {
+    width: 40%;
+    background-image: url("../src/assets/01421_2018Q3ArtReview_Shutterstock_1006039375_2285px.png");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.right {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+button.btn.btn-primary {
+    width: 34%;
+    border-radius: 6px;
+}
+.pass{
+    padding: 5px;
+    position: relative;
+}
+.newpass{
+    padding: 5px;
+    position: relative;
+}
+.savbtn{
+    padding: 5px;
+}
+.errspan {
+   
+    color: rgb(207, 200, 200);
+}
+.errspan1 {
+   
+    color: rgb(207, 200, 200);
+}
+span.fa.fa-lock.errspan {
+    position: absolute;
+    top: 56%;
+    left: 18px;
+}
+span.fa.fa-lock.errspan1 {
+    position: absolute;
+    top: 58%;
+    left: 18px;
+}
+input.form-control.innewpass {
+    text-indent: 15px;
+}
+input.form-control.inpass {
+    text-indent: 15px;
+}
+.pcontent {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.parentmain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pdiv  {
+    height: 100%;
+    width: 100%;
+    background-color: #00000094;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10px;
+
+}
+a.hlp {
+    text-decoration: none;
+    padding: 10px;
+}
+a.physi {
+    text-decoration: none;
+}
+.hlpdiv {
+    position: absolute;
+    top: 12px;
+    right: 21px;
+    font-size: 14px;
+}
+.childright {
+    margin: 0 auto;
+    width: 300px;
+}
+.sp{
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+}

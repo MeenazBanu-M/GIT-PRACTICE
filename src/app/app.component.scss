@@ -1,0 +1,307 @@
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #1998F1;
+}
+
+input:focus-visible{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+input{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.23px;
+    color: #333333;
+}
+
+
+.signin {
+    font-family: "DM Sans";
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('../assets/01421_2018Q3ArtReview_Shutterstock_1006039375_2285px.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 500px 100%;
+}
+
+.signin::before {
+    content: "";
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 500px, rgb(255, 255, 255) 20% 40%, rgb(255, 255, 255) 40% 60%);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    // background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+    // background: linear-gradient(
+    //     to right,
+    //     red 20%,
+    //     orange 20% 40%,
+    //     yellow 40% 60%,
+    //     green 60% 80%,
+    //     blue 80%
+    //   );
+}
+
+.signin-main {
+    position: relative;
+    padding: 52px 46px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: inline-flex;
+}
+
+.header-content-img-container {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+.header-per-content {}
+
+.header-content-img {
+    height: 100%;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 52px;
+    justify-content: space-between;
+    
+}
+
+.signin-content {
+    flex-grow: 1;
+}
+
+.signin-I {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 49.48px;
+    color: #fff;
+    display: inline-flex;
+    align-items: flex-end;
+    width: 454px;
+}
+
+.header-per-content-wrapper {
+    display: flex;
+}
+
+.for-what {
+    width: 390px;
+    margin: 0px;
+}
+
+.bar {
+    font-size: 17px;
+    font-weight: 200;
+    color: #1998F1;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.header-per-content>span {
+    color: #2D3842;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.23px;
+    padding-left: 10px;
+}
+
+.sign_in_header {
+    text-decoration: underline;
+}
+
+.header-per-content>a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.23px;
+}
+
+.signin-II {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.form-header{
+    width: 515px;
+font-size: 32px;
+font-weight: 400;
+line-height: 41.66px;
+color: #333333;
+margin-bottom: 15px;
+}
+
+.signin-form label {
+font-size: 12px;
+font-weight: 400;
+line-height: 18.23px;
+color: #DDDDDD;
+margin-bottom: 10px;
+}
+
+.signin-form input[type="text"],
+.signin-form input[type="password"]{
+    width: 455px;
+    height: 48px;
+    border-radius: 10px;
+    border: #DDDDDD 1px solid;
+    padding-left: 50px;
+    
+    background-repeat: no-repeat;
+    background-position: 25px;
+    // background-size: 50px auto;
+}
+
+.signin-form input#email{
+    background-image: url(../assets/ic_mail.png);
+}
+
+.signin-form input#pass{
+    background-image: url(../assets/password.png);
+}
+
+.forgot{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.02px;
+}
+
+.register-wrapper .regis-label{
+    margin-bottom: 0px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.regis{
+    font-size: 14px; 
+     font-weight: 400;
+     color: #1998F1;
+     line-height: unset;
+}
+
+.password-label{
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.signin-btn{
+    width: 154px;
+    height: 48px;
+    line-height: 18.23px;
+    background: #1998F1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.button-check-wrapper{
+    display: flex;
+    grid-area: 25px;
+    margin: 20px 0px;
+}
+
+
+.checkbox-rember{
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] {
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	outline: none;
+	content: none;	
+    margin: 0px;
+    margin-left: 50px;
+}
+
+input[type=checkbox]:before {
+	// font-family: "FontAwesome";
+    content: "";
+    font-size: 15px;
+    color: transparent !important;
+   
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+
+input[type=checkbox]:checked:before {
+    background: url('../assets/check-mark.png');
+	color: black !important;
+}
+
+.register-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+#remem{
+    margin-bottom: unset;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-copyright{
+    line-height: 15.62px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-nav{
+    display: inline-flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.footer-per-content>a{
+    color: #333333;
+    line-height: 15.62px;
+    font-size: 12px;
+    font-weight: 400;
+}
